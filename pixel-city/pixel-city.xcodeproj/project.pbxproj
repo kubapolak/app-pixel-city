@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0453E1131F85483B001D6B80 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453E1121F85483B001D6B80 /* Constants.swift */; };
 		04831BE41F82A45400285EB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04831BE31F82A45400285EB4 /* AppDelegate.swift */; };
 		04831BE61F82A45400285EB4 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04831BE51F82A45400285EB4 /* MapVC.swift */; };
 		04831BE91F82A45400285EB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04831BE71F82A45400285EB4 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0453E1121F85483B001D6B80 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		04831BE01F82A45400285EB4 /* pixel-city.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pixel-city.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04831BE31F82A45400285EB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04831BE51F82A45400285EB4 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		04831BF81F82A4BB00285EB4 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				0453E1121F85483B001D6B80 /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0453E1131F85483B001D6B80 /* Constants.swift in Sources */,
 				04CBFE181F83FA5A001FFE14 /* PhotoCell.swift in Sources */,
 				04831BE61F82A45400285EB4 /* MapVC.swift in Sources */,
 				04CBFE161F83E6D1001FFE14 /* DroppablePin.swift in Sources */,
