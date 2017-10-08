@@ -10,17 +10,23 @@ import UIKit
 
 class PopVC: UIViewController, UIGestureRecognizerDelegate {
 
+    //Outlets
     @IBOutlet weak var popImageView: UIImageView!
     
-    var passedImage: UIImage!
+    @IBOutlet weak var titleLbl: UILabel!
     
-    func initData(forImage image: UIImage) {
+    var passedImage: UIImage!
+    var passedTitle: String!
+    
+    func initData(forImage image: UIImage, Title title: String) {
         self.passedImage = image
+        self.passedTitle = title
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         popImageView.image = passedImage
+        titleLbl.text = passedTitle.lowercased()
         addDoubleTap()
         // Do any additional setup after loading the view.
     }

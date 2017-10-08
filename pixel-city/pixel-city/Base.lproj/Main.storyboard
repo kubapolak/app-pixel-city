@@ -11,6 +11,7 @@
     <customFonts key="customFonts">
         <array key="AvenirNext.ttc">
             <string>AvenirNext-DemiBold</string>
+            <string>AvenirNext-Medium</string>
         </array>
     </customFonts>
     <scenes>
@@ -121,10 +122,21 @@
                                     <constraint firstAttribute="width" constant="200" id="x3x-7Q-D1m"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="epP-14-dET">
+                                <rect key="frame" x="37" y="64" width="300" height="31.666666666666671"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Cqh-Yp-b3p"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="epP-14-dET" firstAttribute="centerX" secondItem="x0x-r1-4nI" secondAttribute="centerX" id="1ej-7y-CRf"/>
                             <constraint firstItem="L6T-XH-TED" firstAttribute="top" secondItem="x0x-r1-4nI" secondAttribute="top" id="CQT-Cl-e1j"/>
+                            <constraint firstItem="epP-14-dET" firstAttribute="top" secondItem="PZv-TT-lE7" secondAttribute="top" constant="20" id="WgS-dQ-tDj"/>
                             <constraint firstItem="rzw-D4-UEU" firstAttribute="centerX" secondItem="x0x-r1-4nI" secondAttribute="centerX" id="nVo-y6-ZzU"/>
                             <constraint firstItem="L6T-XH-TED" firstAttribute="trailing" secondItem="PZv-TT-lE7" secondAttribute="trailing" id="pca-CP-f3D"/>
                             <constraint firstItem="rzw-D4-UEU" firstAttribute="bottom" secondItem="PZv-TT-lE7" secondAttribute="bottom" id="rwV-JN-fAM"/>
@@ -135,6 +147,7 @@
                     </view>
                     <connections>
                         <outlet property="popImageView" destination="L6T-XH-TED" id="zoe-it-YxY"/>
+                        <outlet property="titleLbl" destination="epP-14-dET" id="0Uy-f1-P3b"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iRZ-Yi-Rzr" userLabel="First Responder" sceneMemberID="firstResponder"/>
